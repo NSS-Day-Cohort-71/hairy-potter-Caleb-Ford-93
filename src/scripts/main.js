@@ -46,5 +46,5 @@ toSellOrNotToSell(firedPlate);
 
 // Invoke the component function that renders the HTML list
 
-const potteryListHtml = document.querySelector(".potteryList");
-potteryListHtml.innerHTML = PotteryList();
+const potteryListContainer = document.querySelector(".potteryList");
+potteryListContainer.innerHTML = PotteryList();
