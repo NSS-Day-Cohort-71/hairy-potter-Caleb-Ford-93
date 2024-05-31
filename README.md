@@ -137,12 +137,12 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > Using the querySelector() method on the document element, I selected the first element with the class .potteryList and stored that in the variable "potteryListContainer". Then used innerHTML on that variable and gave it the return value of PotteryList()
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/8a8dde9a45214e9dbcf89c9925e566a8
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > This is a good example of the "Single Responsibility Principle". By following this principle, the code is easier to read, and when future changes need to be made, you can target the area you need to change without much worry of breaking something else.
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > I would head over to PotteryCatalog.js and edit the logic in the toSellOrNotToSell() function. I would edit the if statement that checks if it is cracked to add the price of 2.50, then push it into the potteryCatalog array. I would also move it to be the last check in my if-else statements so that when I iterate though the array to create the HTML, the cracked pottery would be displayed last.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/eff3b74625f0465f88f783e695bf5db7
