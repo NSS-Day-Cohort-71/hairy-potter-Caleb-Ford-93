@@ -20,6 +20,5 @@ export const toSellOrNotToSell = (potteryObj) => {
 };
 
 //return a copy of potteryCatalog array
-export const usePottery = () => {
+export const usePottery = () =>
     potteryCatalog.map((pottery) => ({ ...pottery }))
-}
